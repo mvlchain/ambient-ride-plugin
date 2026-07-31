@@ -1,0 +1,9 @@
+{
+  "name": "ride",
+  "version": "1.0.0",
+  "description": "Ambient Ride skill for TADA/Throo ride-hailing and taxi service. Wallet, deposit, collateral, ride, payment, chat, and tipping workflows.",
+  "author": {
+    "name": "MVL Chain",
+    "email": "dev@mvlchain.io"
+  }
+}

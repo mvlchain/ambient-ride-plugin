@@ -27,7 +27,7 @@ first load.
 
 ## Requirements and permissions
 
-- Node.js 18+ is required.
+- Node.js 22.22.0 or newer is required.
 - Claude Code 2.1.129 or newer is recommended. The bundled skill declares an
   `allowed-tools` rule containing `${CLAUDE_SKILL_DIR}`. Older versions may
   leave that token unresolved and prompt for each command, but the plugin still

@@ -25,6 +25,13 @@ installer and is safe to run again.
 You can skip setup and mention a ride instead; the skill installs the CLI on
 first load.
 
+When member login is required, the plugin's `PostToolUse` hook surfaces the
+completed ASCII QR directly in Claude Code's default TUI. You do not need
+verbose mode or `Ctrl+O`, the collapsed Bash preview does not duplicate QR
+rows, and Claude does not regenerate the QR in model response tokens. The
+CLI's `approval_url` and `qr_image_path` output remain
+available for links and image-capable channels.
+
 ## Requirements and permissions
 
 - Node.js 22.22.0 or newer is required.

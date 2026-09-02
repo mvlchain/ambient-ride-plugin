@@ -5,15 +5,15 @@
     "email": "dev@mvlchain.io"
   },
   "metadata": {
-    "description": "Ambient Ride skill for TADA/Throo ride-hailing and taxi service. Wallet, deposit, collateral, ride, payment, chat, and tipping workflows. (recommended: Claude Code 2.1.129+)",
-    "version": "1.3.0"
+    "description": "Ambient Ride skill for TADA/Throo ride-hailing and taxi service. Wallet, USDC bridge status and recovery, deposit, collateral, ride, payment, chat, and tipping workflows; use it for wallet balances, starting and resuming USDC bridges, and bridge progress. (recommended: Claude Code 2.1.129+)",
+    "version": "1.4.0"
   },
   "plugins": [
     {
       "name": "ride",
       "source": "./plugins/ride",
-      "description": "Ambient Ride skill for TADA/Throo ride-hailing and taxi service. Wallet, deposit, collateral, ride, payment, chat, and tipping workflows.",
-      "version": "1.3.0"
+      "description": "Ambient Ride skill for TADA/Throo ride-hailing and taxi service. Wallet, USDC bridge status and recovery, deposit, collateral, ride, payment, chat, and tipping workflows; use it for wallet balances, starting and resuming USDC bridges, and bridge progress.",
+      "version": "1.4.0"
     }
   ]
 }
